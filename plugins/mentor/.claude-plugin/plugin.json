@@ -1,0 +1,9 @@
+{
+  "name": "mentor",
+  "version": "0.1.0",
+  "description": "Senior-engineer mentoring for technical questions, one layer below the abstraction, with the transferable principle named.",
+  "author": {
+    "name": "Lunix07"
+  },
+  "keywords": ["learning", "mentoring", "explanations"]
+}

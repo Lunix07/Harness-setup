@@ -1,0 +1,9 @@
+{
+  "name": "git-workflow",
+  "version": "0.1.0",
+  "description": "Issue-first branching, Conventional Commits, opening and reviewing pull/merge requests on GitHub or GitLab.",
+  "author": {
+    "name": "Lunix07"
+  },
+  "keywords": ["git", "commit", "pull-request", "review"]
+}

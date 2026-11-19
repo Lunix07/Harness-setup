@@ -1,0 +1,9 @@
+{
+  "name": "code-maps",
+  "version": "0.1.0",
+  "description": "Investigate code or docs once and keep a digest whose staleness is checked by git blob hashes.",
+  "author": {
+    "name": "Lunix07"
+  },
+  "keywords": ["documentation", "context", "code-map"]
+}

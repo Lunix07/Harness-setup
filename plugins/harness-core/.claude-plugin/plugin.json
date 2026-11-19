@@ -1,0 +1,9 @@
+{
+  "name": "harness-core",
+  "version": "0.1.0",
+  "description": "Guard hooks, a missing-tool check, a configurable post-edit check, a cheap scout agent, and /harness-init to set a project up.",
+  "author": {
+    "name": "Lunix07"
+  },
+  "keywords": ["hooks", "guardrails", "setup", "claude-md"]
+}

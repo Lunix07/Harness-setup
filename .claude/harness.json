@@ -1,0 +1,12 @@
+{
+  "baseBranch": "main",
+  "forge": "github",
+  "tools": ["shellcheck"],
+  "issues": { "tracker": "github" },
+  "commit": { "beforeCommit": "scripts/validate.sh" },
+  "guards": { "allowDirectPush": true },
+  "postEdit": [
+    { "glob": "*.sh", "command": "bash -n {file}" },
+    { "glob": "*.json", "command": "jq empty {file}" }
+  ]
+}

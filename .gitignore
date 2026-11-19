@@ -1,0 +1,5 @@
+# Local-only files
+.privacy-denylist
+.claude/settings.local.json
+CLAUDE.local.md
+**/evals/results/

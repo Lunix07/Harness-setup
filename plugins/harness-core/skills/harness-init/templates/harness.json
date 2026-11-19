@@ -1,0 +1,24 @@
+{
+  "baseBranch": "main",
+  "forge": "github",
+  "tools": [],
+  "issues": {
+    "tracker": "none",
+    "keyPattern": "",
+    "branchTemplate": "feature/{key}-{slug}"
+  },
+  "commit": {
+    "types": ["feat", "fix", "chore", "docs", "refactor", "test"],
+    "everyLineConventional": true,
+    "beforeCommit": ""
+  },
+  "guards": {
+    "protectedBranches": ["main", "master"],
+    "allowDirectPush": false,
+    "forbidAttribution": true
+  },
+  "postEdit": [],
+  "references": {
+    "dir": "docs/references"
+  }
+}

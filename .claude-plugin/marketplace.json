@@ -1,0 +1,44 @@
+{
+  "name": "harness-setup",
+  "owner": {
+    "name": "Lunix07"
+  },
+  "metadata": {
+    "description": "A personal Claude Code harness: guard hooks, a git workflow, verifiable code maps and a mentor mode, installable into any project.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "harness-core",
+      "source": "./plugins/harness-core",
+      "description": "Guard hooks (protected branches, attribution trailers, destructive rm), a missing-tool check, a configurable post-edit check, a cheap scout agent, and /harness-init to set a project up.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["hooks", "guardrails", "setup", "claude-md"]
+    },
+    {
+      "name": "git-workflow",
+      "source": "./plugins/git-workflow",
+      "description": "Issue-first branching, Conventional Commits, opening and reviewing pull/merge requests on GitHub or GitLab.",
+      "version": "0.1.0",
+      "category": "development",
+      "keywords": ["git", "commit", "pull-request", "merge-request", "review"]
+    },
+    {
+      "name": "code-maps",
+      "source": "./plugins/code-maps",
+      "description": "Investigate code or docs once and keep a digest whose staleness is checked by git blob hashes, not guessed.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["documentation", "context", "code-map", "token-budget"]
+    },
+    {
+      "name": "mentor",
+      "source": "./plugins/mentor",
+      "description": "Answers technical questions the way a senior engineer mentors a junior: one layer below the abstraction, with the transferable principle named.",
+      "version": "0.1.0",
+      "category": "learning",
+      "keywords": ["learning", "mentoring", "explanations"]
+    }
+  ]
+}
