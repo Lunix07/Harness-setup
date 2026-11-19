@@ -17,6 +17,7 @@ map; spend tokens on judgement, not on re-reading.
 | [`git-workflow`](plugins/git-workflow)     | `/start-issue`, `/commit`, `/open-pr`, `/review-pr`, for GitHub and GitLab                                                     |
 | [`code-maps`](plugins/code-maps)           | `/map-code`, `/ingest-ref` and the `reference` skill: knowledge digests whose staleness is checked by git blob hashes          |
 | [`mentor`](plugins/mentor)                 | `engineering-mentor`: answers that explain one layer below the abstraction and name the principle that transfers               |
+| [`tone`](plugins/tone)                     | The `Military` output style: answer first, length capped by the question, numbered steps for tasks, one-line insights           |
 
 Every plugin is independent: install `git-workflow` alone and it works, it just
 reads its settings from defaults instead of `.claude/harness.json`.
@@ -97,6 +98,23 @@ reports.
 `engineering-mentor`: classifies a question (mechanical, conceptual, complex,
 urgent) and teaches only as much as that deserves: one layer below the
 abstraction, then the general principle and where else it shows up.
+
+### tone
+
+An output style, so it shapes **every** reply rather than firing on a match
+like a skill. Select it with `/output-style` (or `"outputStyle"` in a settings
+file); a project's own setting overrides the user default.
+
+| Rule              | Behaviour                                                                                        |
+| ----------------- | ------------------------------------------------------------------------------------------------ |
+| Length            | Yes/no: one line. Fact: up to three lines. Task: numbered steps, one line each, at most seven    |
+| Form              | Answer first; no preamble, recap or closing offer; status words `Done.` `Partial.` `Blocked:` `Need:` |
+| Go long when      | Destructive or outward-facing actions, failures, real ambiguity, or the user says "explain"/"detail"/"why" |
+| Insight           | At most one line, only for something non-obvious and reusable                                    |
+| Teaching          | A concept new to the user goes to `engineering-mentor` instead of a long inline explanation      |
+
+Measured against no style on three prompts: 4 to 8 times fewer words, every
+fact that changed the action kept.
 
 ## Configuration
 

@@ -14,7 +14,12 @@
       "description": "Guard hooks (protected branches, attribution trailers, destructive rm), a missing-tool check, a configurable post-edit check, a cheap scout agent, and /harness-init to set a project up.",
       "version": "0.1.0",
       "category": "productivity",
-      "keywords": ["hooks", "guardrails", "setup", "claude-md"]
+      "keywords": [
+        "hooks",
+        "guardrails",
+        "setup",
+        "claude-md"
+      ]
     },
     {
       "name": "git-workflow",
@@ -22,7 +27,13 @@
       "description": "Issue-first branching, Conventional Commits, opening and reviewing pull/merge requests on GitHub or GitLab.",
       "version": "0.1.0",
       "category": "development",
-      "keywords": ["git", "commit", "pull-request", "merge-request", "review"]
+      "keywords": [
+        "git",
+        "commit",
+        "pull-request",
+        "merge-request",
+        "review"
+      ]
     },
     {
       "name": "code-maps",
@@ -30,7 +41,12 @@
       "description": "Investigate code or docs once and keep a digest whose staleness is checked by git blob hashes, not guessed.",
       "version": "0.1.0",
       "category": "productivity",
-      "keywords": ["documentation", "context", "code-map", "token-budget"]
+      "keywords": [
+        "documentation",
+        "context",
+        "code-map",
+        "token-budget"
+      ]
     },
     {
       "name": "mentor",
@@ -38,7 +54,23 @@
       "description": "Answers technical questions the way a senior engineer mentors a junior: one layer below the abstraction, with the transferable principle named.",
       "version": "0.1.0",
       "category": "learning",
-      "keywords": ["learning", "mentoring", "explanations"]
+      "keywords": [
+        "learning",
+        "mentoring",
+        "explanations"
+      ]
+    },
+    {
+      "name": "tone",
+      "source": "./plugins/tone",
+      "description": "A terse, military-register output style: answer first, numbered steps for tasks, a one-line insight only when it teaches something non-obvious.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": [
+        "output-style",
+        "tone",
+        "concise"
+      ]
     }
   ]
 }

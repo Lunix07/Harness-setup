@@ -32,3 +32,9 @@ Per plugin, newest first. Versions follow [semver](https://semver.org); see
 ### 0.1.0 - 2026-11-17
 
 - feat: `engineering-mentor` skill
+
+## tone
+
+### 0.1.0 - 2026-11-19
+
+- feat: `Military` output style with question-sized replies, status words and one-line insights

@@ -1,0 +1,14 @@
+{
+  "name": "tone",
+  "version": "0.1.0",
+  "description": "A terse, military-register output style: answer first, numbered steps for tasks, a one-line insight only when it teaches something non-obvious.",
+  "author": {
+    "name": "Lunix07"
+  },
+  "keywords": [
+    "output-style",
+    "tone",
+    "concise"
+  ],
+  "outputStyles": "./output-styles/"
+}
